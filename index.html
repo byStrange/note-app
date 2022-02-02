@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="//github.com/strange-bs">
+    <meta name="description" content="Simple notes web app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div>
+                <header>
+                    <div class="col bar" type="button" role="toggler">
+                        ☰
+                    </div>
+                    <div class="col search">
+                        <input type="search" placeholder="Search from tasks" name="search" id="search">
+                    </div>
+                    <div class="col profile">
+                        <img src="https://picsum.photos/50/" alt="">
+                    </div>
+                </header>
+                <main>
+                    <div class="title">
+                        <span>Tasks</span>
+                    </div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card-task" style="background: var(--gradient-4)"></div>
+                            </div>
+                            <div class="col">
+                                <div class="card-task" style="background: var(--gradient-3)"></div>
+                            </div>
+                        </div>
+                        <div class="row reverse">
+                            <div class="col">
+                                <div class="card-task" style="background: var(--gradient-1)"></div>
+                            </div>
+                            <div class="col">
+                                <div class="card-task" style="background: var(--gradient-2)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    <div class="detail"></div>
+                    <div class="detail add">
+                        
+                    </div>
+                    <div class="detail"></div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/strange.js"></script>
+    <script src="assets/js/main.js" type="module"></script>
+</body>
+
+</html>
